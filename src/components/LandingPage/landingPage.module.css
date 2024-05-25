@@ -1,0 +1,28 @@
+.landingPage {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure page fills viewport */
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  background-color: #f0f0f0; /* Background color for header */
+  z-index: 10;
+}
+
+.mainContent {
+  flex: 1;
+  padding-top: var(--header-height); /* Prevent header overlap */
+  padding-bottom: var(--footer-height); /* Prevent footer overlap */
+}
+
+.footer {
+  position: sticky;
+  bottom: 0;
+  background-color: #333; /* Background color for footer */
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  z-index: 10;
+}
