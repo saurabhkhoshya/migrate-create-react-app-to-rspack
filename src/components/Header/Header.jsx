@@ -8,6 +8,8 @@ function Header() {
       <nav>
         <ul className={styles.navList}>
           <li className={styles.navItem}>Home</li>
+          <li className={styles.navItem}>About</li>
+          <li className={styles.navItem}>Contact</li>
         </ul>
       </nav>
     </header>
